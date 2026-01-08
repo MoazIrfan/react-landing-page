@@ -1,0 +1,172 @@
+.registration {
+  padding: 6.25rem 2rem;
+}
+
+.registration-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  align-items: center;
+}
+
+.registration-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.registration-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 3rem;
+  box-shadow: 0 28px 50px rgba(13, 55, 134, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100%;
+}
+
+.registration-header h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #000;
+  margin-top: 0;
+}
+
+.registration-header p {
+  font-size: 1rem;
+  color: #515151;
+  font-weight: 500;
+  margin: 0;
+}
+
+.registration-form {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.field-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.required {
+  color: #ff5c4c;
+}
+
+.field input {
+  width: 100%;
+  height: 51px;
+  padding: 1rem;
+  border: 1px solid #DEE6FF;
+  border-radius: 5px;
+  background: #f7f8fb;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #aaa;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
+
+.field input:focus {
+  border-color: #1f50f2;
+  box-shadow: 0 0 0 2px rgba(31, 80, 242, 0.1);
+  background: #fff;
+}
+
+.field-error {
+  font-size: 0.688rem;
+  color: #EB5939;
+  font-weight: 500;
+}
+
+.submit-btn {
+  margin-top: 3rem;
+  width: 100%;
+  height: 51px;
+  border: 1px solid #1434CB;
+  border-radius: 40px;
+  background: #1434CB;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0px 10px 34px 0px #1434CB80;
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.submit-btn:hover {
+  box-shadow: 0 20px 40px rgba(17, 62, 196, 0.42);
+  color: #cfcfcf;
+}
+
+@media (max-width: 1024px) {
+  .registration-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .registration-card {
+    order: 2;
+  }
+
+  .registration-visual {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .registration-image {
+    height: auto;
+    width: auto;
+  }
+}
+
+.registration-success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  gap: 1rem;
+}
+
+.registration-success-heading {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #057D21;
+  margin: 0;
+}
+
+.success-message {
+  font-size: 1rem;
+  color: #515151;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .registration-card {
+    padding: 2rem 1.5rem;
+    min-height: auto;
+  }
+
+  .registration-header h2 {
+    font-size: 2rem;
+  }
+
+  .registration-header p {
+    font-size: 0.98rem;
+  }
+
+  .registration-success-heading {
+    font-size: 2rem;
+  }
+}
+

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* background:  #EBF0FF; */
+  font-family: 'Inter', sans-serif;
+}
+
+.page {
+  background:  #EBF0FF;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.page::before,
+.page::after {
+  content: "";
+  position: absolute;
+  width: 1559px;
+  height: 1160px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.page::before {
+  top: -81px;
+  left: -256px;
+  background-image: url("./assets/bg-one.png");
+}
+
+.page::after {
+  top: 743px;
+  left: -78px;
+  background-image: url("./assets/bg-two.png");
+}
+
+
+.container {
+  max-width: 1201px;
+  margin: 0 auto;
+}
