@@ -60,7 +60,12 @@
   .slider {
     padding: 2rem;
   }
+
   .slider-track {
+    padding: 0;
+  }
+  
+  .slider-logos {
     padding: 0;
   }
 
