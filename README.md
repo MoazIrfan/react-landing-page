@@ -4,7 +4,7 @@ Convert Fimga Design to React
 
 ## Live Url
 
-https://react-landing-page-14j73lqko-moazirfans-projects.vercel.app
+https://react-landing-page-taupe.vercel.app
 
 
 ## Installation
