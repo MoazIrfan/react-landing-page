@@ -1,6 +1,6 @@
 # React Landing Page
 
-Convert Fimga Design to React
+Professional landing page built with React from Figma Design. Fully responsive, component-based architecture, ready to customize.
 
 ## Live Url
 
