@@ -1,4 +1,4 @@
-import logo from '../../assets/i2c Logo.png';
+import logo from '../../assets/logo.png';
 import './Header.css';
 
 function Header() {

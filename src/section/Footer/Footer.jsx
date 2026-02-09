@@ -24,7 +24,7 @@ function Footer() {
         </nav>
 
         <p className="footer-copy">
-          Copyright © 2024 i2c inc. All rights reserved.
+          Copyright © 2026 logo inc. All rights reserved.
         </p>
       </div>
     </footer>
