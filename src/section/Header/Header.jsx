@@ -7,7 +7,7 @@ function Header() {
       <div className="container">
         <nav className="header-nav" aria-label="Primary navigation">
           <a href="/" className="header-logo">
-            <img src={logo} alt="I2C company logo" />
+            <img src={logo} alt="company logo" />
           </a>
 
           <ul className="header-links">
