@@ -1,6 +1,6 @@
 # React Landing Page
 
-Professional landing page built with React from Figma Design. Fully responsive, component-based architecture, ready to customize.
+Professional landing page built with latest React 19 from Figma Design. Fully responsive, component-based architecture, ready to customize.
 
 ## Live Url
 
