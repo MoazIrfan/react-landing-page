@@ -2,6 +2,8 @@
 
 I built this landing page using React 19, following a Figma design. It’s fully responsive, uses a component-based structure, and is easy to customize.
 
+Every section is styled separately to keep the code clean and easier to maintain.
+
 ## Live Url
 
 https://react-landing-page-taupe.vercel.app
